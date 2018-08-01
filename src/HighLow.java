@@ -9,10 +9,10 @@ public class HighLow {
          int numberToFind = RANDOM.nextInt(MAX_NUMBER) + 1;
             Scanner userInput = new Scanner(System.in);
          int numberTries = 0, userGuess = 0;
+        System.out.println("Guess a number between 1 and " + MAX_NUMBER + " : ");
 
          while (userGuess != numberToFind) {
-            System.out.println("Guess a number between 1 and " + MAX_NUMBER + " : ");
-            userGuess = userInput.nextInt();
+             userGuess = userInput.nextInt();
             numberTries++;
 
             if (userGuess < 1 || userGuess > MAX_NUMBER) {
