@@ -1,12 +1,12 @@
 package movies;
     public class Movie {
 
-    private String title;
+    private String name;
     private String category;
     private int rating;
 
-    public Movie(String title, String category) {
-        this.title = title;
+    public Movie(String name, String category) {
+        this.name = name;
         this. category = category;
     }
 
@@ -17,12 +17,12 @@ package movies;
         this.rating = rating;
 
     }
-    public String getTitle(){
-        return title;
+    public String getName(){
+        return name;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getCategory() {
